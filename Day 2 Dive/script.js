@@ -1,4 +1,5 @@
 import fs from "fs";
+import readline from "readline";
 let data = []
 
 try {
@@ -39,6 +40,7 @@ let one = () => {
     console.log("horizontal: " + horizontal);
     console.log("depth: " + depth);
     console.log("result: " + (horizontal * depth))
+    process.exit();
 }
 
 let two = () => {
@@ -65,4 +67,5 @@ let two = () => {
     console.log("horizontal: " + horizontal);
     console.log("depth: " + depth);
     console.log("result: " + (horizontal * depth))
+    process.exit();
 }
